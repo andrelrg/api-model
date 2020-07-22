@@ -29,7 +29,7 @@ This should be a tutorial of how to test the application, in the best scenario, 
 
 #### TL;DR: `make test`
 
-> Exetute go tests
+> Execute go tests
 ```bash
 go test ./...
 ```
@@ -39,14 +39,14 @@ This should be a tutorial of how to run the application, in the best scenario, a
 
 #### TL;DR: `make start`
 
-> Turn mysql on via docker compose:
+1. Turn mysql on via docker compose:
 ```bash
 cd docker
 docker-compose up
 ``` 
-> Make sure the environment variables are configured
+2. Make sure the environment variables are configured
 
-> Build go api
+3. Build go api
 ```bash
 go build
 ```
@@ -55,9 +55,9 @@ go build
 <!-- markdown-swagger -->
  Endpoint           | Method | Description                  | External | Authenticated | Example
  ------------------ | ------ | ---------------------------- | -------- | ------------- | ----
- `/heartbeat`       | GET    | Check if the API is alive    | **Yes**  | No            | [example]("/examples/examples.md#hearbeat")
- `/create`          | POST   | Create the user in the user  | **No**   | Yes           | [example]("/examples/examples.md#create") 
- `/list`            | GET    | List all created users       | **Yes**  | Yes           | [example]("/examples/examples.md#list")
- `/get/:userID`     | GET    | Get a specific user          | **No**   | Yes           | [example]("/examples/examples.md#get")
+ `/heartbeat`       | GET    | Check if the API is alive    | **Yes**  | No            | [example](/examples/examples.md#hearbeat)
+ `/create`          | POST   | Create the user in the user  | **No**   | Yes           | [example](/examples/examples.md#create) 
+ `/list`            | GET    | List all created users       | **Yes**  | Yes           | [example](/examples/examples.md#list)
+ `/get/:userID`     | GET    | Get a specific user          | **No**   | Yes           | [example](/examples/examples.md#get)
 <!-- /markdown-swagger --> 
 
