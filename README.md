@@ -43,7 +43,11 @@ You have to detail the configurations needed to run the API locally, like enviro
 ## Testing
 This should be a tutorial of how to test the application, in the best scenario, at the start of this part you should have something like this, *creating makefiles makes everything easier*:
 
-#### TL;DR: `make test`
+### TL;DR: All the tests are executed with this command: 
+
+`make test`
+
+### What's behind?
 
 > Execute go tests
 ```bash
@@ -53,7 +57,11 @@ go test ./...
 ## Running
 This should be a tutorial of how to run the application, in the best scenario, at the start of this part you should have something like this, *creating makefiles makes everything easier*:
 
-> TL;DR: `make start`
+### TL;DR: Everything works with this command:
+
+`make start`
+
+### What's behind?
 
 1. Turn mysql on via docker compose:
 ```bash
