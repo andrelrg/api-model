@@ -1,7 +1,7 @@
 # api-model
-![tests](https://img.shields.io/badge/Unit%20tests-100%-green?style=flat)
-![integrations](https://img.shields.io/badge/Integration%20test-50%-yellow?style=flat)
-![docs](https://img.shields.io/badge/Documentation-100%-green?style=flat)
+![tests](https://img.shields.io/badge/Unit%20tests-100%25-green?style=flat)
+![integrations](https://img.shields.io/badge/Integration%20test-50%25-yellow?style=flat)
+![docs](https://img.shields.io/badge/Documentation-100%25-green?style=flat)
 
 This badges above can give people a good idea of what to expect about the API and what they can contribute too.
 
@@ -68,7 +68,7 @@ go build
 ```
 
 ## Diagrams
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/andrelrg/api-model/blob/master/docs/diagram1.txt)
+![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/andrelrg/api-model/master/docs/diagram1.txt?token=ADWNZBWSVV4MXQTGPT2EENK7DDNOU)
 
 You can put some diagrams to clarify the procceesses executed by your API.
 ## Routes
