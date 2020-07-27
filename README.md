@@ -89,3 +89,8 @@ You can put some diagrams to clarify the procceesses executed by your API.
  `/get/:userID`     | GET    | Get a specific user          | **No**   | Yes           | [example](/examples/examples.md#get)
 <!-- /markdown-swagger --> 
 
+## Who uses it?
+Specify who calls this API (here you can put some examples of request tracers showing the complete cycle of te request)
+
+- [AuthAPI](http://authapiprojectlink.com) - [example](http://logsofexample.com)
+- [FrontendProject](http://frontend.com) - [example](http://logsofexample.com)
